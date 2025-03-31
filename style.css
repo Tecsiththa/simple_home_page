@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 10px 50px;
+}
+
+
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+nav ul li{
+    margin-left: 40px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+nav ul li a{
+    color: #000;
+    text-decoration: none;
+    transition: .3s;
+}
+
+nav ul li a:hover{
+    color: #E12454;
+}
+
+nav ul li i{
+    background: #E12454;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 12px;
+    color: #fff;
+    border-radius: 50%;
+}
+
+nav ul li button{
+    width: 120px;
+    height: 40px;
+    background: #E12454;
+    border: 3px solid #E12454;
+    border-radius: 40px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+nav ul li button:hover{
+    border: 3px solid #E12454;
+    color: #E12454;
+    background: none;
+}
+
+.container{
+    display: flex;
+    height: 580px;
+}
+
+.container .image{
+    width: 60%  40%;
+}
+
+.container .image img{
+    width: 100%;
+    height: 100%;
+}
+
+.container .content{
+    width: 50%;
+    padding: 100px 50px;
+    background: #000;
+    color: #fff;
+}
+
+.container .content .title-1{
+  font-size: 40px;
+  margin-bottom: 10px;
+  font-weight: normal;
+  
+}
+
+.container .content .title-2{
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.container .content .sub-titile{
+    font-size: 15px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.container .content .btn button{
+    width: 150px;
+    height: 40px;
+    border: none;
+    background: #E12454;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.container .content .btn button:hover{
+    background: #901030;
+}
+
+.container .content .btn button:last-child{
+    background: none;
+    border: 2px solid #fff;
+    margin-left: 20px;
+}
+
+.container .content .btn button:last-child:hover{
+    background: #fff;
+    color: #000;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+}
+
+footer .img{
+    width: 240px;
+    background: #fff;
+    padding: 10px;
+}
+
+footer .img img{
+    width: 100%;
+}
